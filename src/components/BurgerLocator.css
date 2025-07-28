@@ -1,0 +1,105 @@
+.burger-locator {
+  background-color: red; /* Cor vermelha vibrante */
+  color: white;
+  padding: 30px 20px; /* Ajuste o padding para ser um pouco menor verticalmente */
+  display: flex; /* Habilita Flexbox para centralizar o wrapper */
+  justify-content: center; /* Centraliza o wrapper horizontalmente */
+  align-items: center; /* Centraliza o wrapper verticalmente */
+}
+
+.locator-content-wrapper {
+  max-width: 1440px; /* Largura máxima, similar ao header */
+  width: 100%;
+  display: flex; /* Habilita Flexbox para os itens internos */
+  justify-content: space-between; /* Espaça o lado esquerdo e direito */
+  align-items: center; /* Alinha verticalmente os itens no centro */
+  gap: 30px; /* Espaçamento entre os blocos esquerdo e direito */
+  flex-wrap: wrap; /* Permite que os itens quebrem a linha em telas pequenas */
+}
+
+.locator-left {
+  display: flex; /* Flexbox para o ícone e o título */
+  align-items: center;
+  gap: 15px; /* Espaçamento entre o ícone e o título */
+  flex-shrink: 0; /* Impede que o bloco encolha demais */
+  min-width: 280px; /* Largura mínima para o bloco esquerdo */
+}
+
+.location-icon {
+  width: 50px; /* Tamanho do ícone */
+  height: 50px;
+  color: white; /* Cor do ícone */
+}
+
+.locator-title {
+  font-size: 1.8rem; /* Tamanho do título */
+  margin: 0; /* Remove margem padrão */
+  white-space: nowrap; /* Evita quebra de linha no título em telas maiores */
+}
+
+.locator-right {
+  display: flex; /* Flexbox para a descrição e o botão */
+  align-items: center;
+  gap: 30px; /* Espaçamento entre a descrição e o botão */
+  flex-grow: 1; /* Permite que este bloco cresça para ocupar o espaço disponível */
+  flex-wrap: wrap; /* Permite que os itens quebrem a linha em telas pequenas */
+  justify-content: flex-end; /* Alinha o conteúdo à direita por padrão */
+}
+
+.locator-description {
+  font-size: 1.1rem; /* Tamanho do parágrafo */
+  margin: 0; /* Remove margem padrão */
+  line-height: 1.5;
+  flex-grow: 1; /* Permite que a descrição ocupe o máximo de espaço */
+  text-align: right; /* Alinha o texto da descrição à direita */
+  min-width: 250px; /* Largura mínima para a descrição antes de quebrar */
+}
+
+.find-burgers-button {
+  background-color: white;
+  color: #d11a2a;
+  border: none;
+  padding: 15px 35px;
+  font-size: 1.1rem; /* Ajuste o tamanho da fonte do botão */
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  flex-shrink: 0; /* Impede que o botão encolha */
+}
+
+.find-burgers-button:hover {
+  background-color: #f0f0f0;
+  color: #a0101f;
+}
+
+/* Responsividade Básica */
+@media (max-width: 900px) {
+  .locator-content-wrapper {
+    flex-direction: column; /* Empilha os itens verticalmente */
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .locator-left, .locator-right {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px; /* Reduz o espaçamento */
+  }
+
+  .locator-description {
+    text-align: center; /* Centraliza o texto da descrição */
+    margin-bottom: 20px; /* Adiciona espaço abaixo da descrição */
+  }
+}
+
+@media (max-width: 500px) {
+  .locator-title {
+    font-size: 1.5rem;
+    white-space: normal; /* Permite quebra de linha em telas muito pequenas */
+  }
+
+  .locator-description {
+    font-size: 1rem;
+  }
+}

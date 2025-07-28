@@ -1,0 +1,47 @@
+.header {
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 3;
+padding: 1rem 20px;
+}
+
+.header-hero {
+  background-color: transparent; /* Fundo transparente quando na Hero */
+  box-shadow: none; /* Remove a sombra */
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 1.4rem;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white; /* Logo branco na Hero */
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav li a {
+  color: white; /* Links brancos na Hero */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav li a:hover {
+  color: #ffcc00;
+}
