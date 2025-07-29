@@ -20,7 +20,7 @@
 .locator-left {
   display: flex; /* Flexbox para o ícone e o título */
   align-items: center;
-  gap: 15px; /* Espaçamento entre o ícone e o título */
+  gap: 20px; /* Espaçamento entre o ícone e o título */
   flex-shrink: 0; /* Impede que o bloco encolha demais */
   min-width: 280px; /* Largura mínima para o bloco esquerdo */
 }
@@ -40,7 +40,7 @@
 .locator-right {
   display: flex; /* Flexbox para a descrição e o botão */
   align-items: center;
-  gap: 30px; /* Espaçamento entre a descrição e o botão */
+  gap: 50px; /* Espaçamento entre a descrição e o botão */
   flex-grow: 1; /* Permite que este bloco cresça para ocupar o espaço disponível */
   flex-wrap: wrap; /* Permite que os itens quebrem a linha em telas pequenas */
   justify-content: flex-end; /* Alinha o conteúdo à direita por padrão */
@@ -51,13 +51,13 @@
   margin: 0; /* Remove margem padrão */
   line-height: 1.5;
   flex-grow: 1; /* Permite que a descrição ocupe o máximo de espaço */
-  text-align: right; /* Alinha o texto da descrição à direita */
+  text-align: left; /* Alinha o texto da descrição à direita */
   min-width: 250px; /* Largura mínima para a descrição antes de quebrar */
 }
 
 .find-burgers-button {
   background-color: white;
-  color: #d11a2a;
+  color: red;
   border: none;
   padding: 15px 35px;
   font-size: 1.1rem; /* Ajuste o tamanho da fonte do botão */
