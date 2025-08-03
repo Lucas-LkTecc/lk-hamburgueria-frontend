@@ -3,7 +3,7 @@ import './ProductHighlightSection.css';
 import ProductCard from './ProductCard';
 
 import promoBurger1 from '../assets/menu/xburger-duplo.jpg';
-import promoBurger2 from '../assets/menu/chama-negra.jpg';
+import promoBurger2 from '../assets/menu/fundo-hamburguer.jpg';
 
 function ProductHighlightSection() {
     return (
