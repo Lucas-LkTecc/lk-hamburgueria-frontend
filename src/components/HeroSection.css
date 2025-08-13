@@ -37,11 +37,15 @@
     justify-content: center;
     height: 70%;
     padding-left: 50px;
+    padding-top: 180px;
 }
 
 .hero-text h1 {
     font-size: 4rem;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-weight: 100;
     color: white;
+    letter-spacing: 2px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -51,7 +55,7 @@
     color: #333;
     border: none;
     padding: 15px 30px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     cursor: pointer;
     border-radius: 5px;
     font-weight: bold;

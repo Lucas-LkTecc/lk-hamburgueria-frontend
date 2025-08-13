@@ -29,7 +29,8 @@
 
 .cta-content h2 {
     font-size: 3rem;
-    font-weight: bold;
+    font-family: 'Alfa Slab One', sans-serif; /* Título principal */
+    font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 20px;
@@ -48,5 +49,6 @@
 }
 
 .cta-button:hover {
-    background-color: #a0101f;
+    background-color: yellow;
+    color: black;
 }

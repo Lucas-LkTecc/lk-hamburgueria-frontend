@@ -16,6 +16,8 @@
 
 .contact-info h3 {
   font-size: 1.8rem;
+  font-family: 'Ranchers', sans-serif;
+  font-weight: normal;
   margin-bottom: 10px;
 }
 
@@ -51,7 +53,8 @@
 }
 
 .newsletter-button:hover {
-  background-color: #a0101f;
+  background-color: yellow;
+  color: black;
 }
 
 .social-media {

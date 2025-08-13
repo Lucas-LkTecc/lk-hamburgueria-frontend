@@ -12,8 +12,8 @@ function HeroSection() {
       <div className="hero-content">
         <Header isHero={true} /> {/* Passamos a prop 'isHero' para o Header */}
         <div className="hero-text">
-          <h1>EAT BETTER <br/> BURGERS</h1>
-          <button className="view-burgers-button">VIEW OUR BURGERS</button>
+          <h1>COMA OS MELHORES <br /> HAMBÚRGUERES</h1>
+          <button className="view-burgers-button">VEJA NOSSOS HAMBÚRGUERES</button>
         </div>
       </div>
     </section>

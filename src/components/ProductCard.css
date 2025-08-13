@@ -43,8 +43,9 @@
 }
 
 .product-card-title{
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
     margin-bottom: 10px;
 }
 
