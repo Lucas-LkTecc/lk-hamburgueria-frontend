@@ -6,6 +6,7 @@ import ProductHighlightSection from './components/ProductHighlightSection';
 import TestimonialSection from './components/TestimonialSection';
 import ColeSlawCTA from './components/ColeSlawCTA';
 import ContactSection from './components/ContactSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <TestimonialSection />
       <ColeSlawCTA />
       <ContactSection />
+      <Footer />
       {/* Aqui é onde o código do cabeçalo e outras seções irão */}
     </>
   );

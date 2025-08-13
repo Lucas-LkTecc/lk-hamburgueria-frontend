@@ -1,5 +1,6 @@
 import React from "react";
 import './Header.css';
+import { FaBars, FaTimes } from 'react-icons';
 
 function Header({ isHero }) {
     return (
