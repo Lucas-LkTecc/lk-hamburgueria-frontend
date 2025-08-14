@@ -71,3 +71,33 @@
 .social-icon:hover {
   color: yellow;
 }
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 60px 15px;
+  }
+
+  .contact-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .newsletter-input {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .newsletter-button {
+    width: 40%;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  .social-media {
+    justify-content: center;
+  }
+}

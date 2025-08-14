@@ -52,3 +52,18 @@
     background-color: yellow;
     color: black;
 }
+
+@media (max-width: 768px) {
+    .cole-slaw-cta {
+        height: 300px;
+    }
+
+    .cta-content h2 {
+        font-size: 2rem;
+    }
+
+    .cta-button {
+        font-size: 1rem;
+        padding: 12px 15px;
+    }
+}

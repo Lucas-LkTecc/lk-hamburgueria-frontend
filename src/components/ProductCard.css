@@ -69,3 +69,27 @@
 .product-card-button:hover {
     background-color: red;
 }
+
+@media (max-width: 768px) {
+    .product-card {
+        width: 100%;
+        min-height: 350px;
+    }
+
+    .product-card-content {
+        padding: 10px;
+    }
+
+    .product-card-title {
+        font-size: 2rem;
+    }
+
+    .product-card-description {
+        font-size: 1rem;
+    }
+
+    .product-card-button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
