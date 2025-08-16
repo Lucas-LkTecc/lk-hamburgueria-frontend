@@ -1,39 +1,112 @@
 .testimonial-section {
-    background-color: #f7f7f7;
-    padding: 80px 20px;
-    text-align: center;
+  background-color: #f7f7f7;
+  padding: 80px 20px;
+  text-align: center;
 }
 
-.sectionn-container {
-    max-width: 900px;
-    margin: 0 auto;
+.section-header {
+  margin-bottom: 50px;
 }
 
 .section-title {
-    font-size: 2.5rem;
-    font-family: 'Ranchers', sans-serif;
-    font-weight: bold;
-    color: black;
-    margin-bottom: 20px;
+  font-size: 3rem;
+  font-family: 'Ranchers', sans-serif;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 10px;
 }
 
 .section-subtitle {
-    font-size: 1.2rem;
-    color: #666;
-    line-height: 1.6;
-    margin-bottom: 40px;
+  font-size: 1.2rem;
+  color: #666;
 }
 
+.testimonial-carousel-container {
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden; /* Oculta os depoimentos que não estão visíveis */
+}
+
+.testimonial-carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Adiciona a animação de transição */
+}
+
+.testimonial-card {
+  flex: 0 0 100%; /* Cada card ocupa exatamente 100% da largura do contêiner */
+  width: 100%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.testimonial-author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.author-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid red;
+}
+
+.author-name {
+  font-weight: bold;
+  font-size: 1rem;
+  color: black;
+}
+
+.carousel-nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-button {
+  background-color: #d11a2a;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #a0101f;
+}
+
+/* Responsividade */
 @media (max-width: 768px) {
-    .testimonial-section {
-        padding: 60px 15px;
-    }
-
-    .section-title {
-        font-size: 2rem;
-    }
-
-    .section-subtitle {
-        font-size: 1rem;
-    }
+  .testimonial-section {
+    padding: 60px 15px;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+  .section-subtitle {
+    font-size: 1rem;
+  }
+  .testimonial-text {
+    font-size: 1rem;
+  }
 }
