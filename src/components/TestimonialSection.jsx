@@ -25,7 +25,7 @@ const testimonials = [
     id: 4,
     text: '“Preço justo e qualidade que surpreende. Fiquei fã do hambúrguer vegetariano. Perfeito para quem busca uma opção deliciosa sem carne.”',
     author: 'Pedro Santos',
-    image: 'https://images.unsplash.com/photo-1552058544-f2b08422136a?q=80&w=256&h=256&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1695927621677-ec96e048dce2?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
 ];
 
